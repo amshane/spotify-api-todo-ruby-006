@@ -46,8 +46,7 @@ class SpotifyChart
     # the track name, artist name, and album name should be the first track in the
     # tracks array
 
-    new_string = "'#{music_hash["tracks"][0]["track_name"]}' by #{music_hash["tracks"][0]["artist_name"]} from the album #{music_hash["tracks"][0]["album_name"]}"
-    new_string
+    "'#{music_hash["tracks"][0]["track_name"]}' by #{music_hash["tracks"][0]["artist_name"]} from the album #{music_hash["tracks"][0]["album_name"]}"
   end
 
 
